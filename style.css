@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	color: white;
+	text-align: center;
+}
+
+header{background: red; height: 100px; width: 100%;}
+article{background: yellow; height: 100px;}
+aside{background: purple; height: 100px; width: 50%; float: left; }
+footer{background: orange; height: 60px; width: 100%;}
+
+
+@media (max-width:632px) {
+	body{
+		background: black;
+
+	}
+}
+@media only screen and (max-width: 500px) {
+	body{
+		background: green;
+
+	}
+}
